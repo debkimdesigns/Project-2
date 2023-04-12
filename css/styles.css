@@ -142,7 +142,6 @@ footer {
 
     .col {
         width: 50%;
-        flex-basis: Calc(50%-20px);
     }
 
     #contact p {
@@ -163,12 +162,20 @@ footer {
         }
 }
 @media screen and (min-width: 1024px) {
+
+
     .intro {
       text-align: left;
     }
     .profile-img {
-      width: 50%;
-      padding: 0px 100px 0px 100px;
+      width: 60%;
+    }
+
+    #home {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex-direction: row-reverse;
     }
     .main-header {
         flex-wrap: nowrap;
@@ -185,7 +192,6 @@ footer {
     .col {
         width: 30%;
         justify-content: space-around;
-        flex-basis: Calc(33.3333%-20px);
     }
     #contact p {
         width: 60%;
