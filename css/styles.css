@@ -110,6 +110,16 @@ footer {
     .intro {
       text-align: left;
     }
+    .profile-img {
+      width: 60%;
+    }
+
+    #home {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex-direction: row-reverse;
+    }
     .main-header {
         display: flex;
         flex-direction: row;
